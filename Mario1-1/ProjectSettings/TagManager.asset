@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hurtbox
+  - Enemy
+  - MysteryBox
+  - Coin
+  - Flagpole
   layers:
   - Default
   - TransparentFX
@@ -14,7 +19,7 @@ TagManager:
   - MidGround
   - DeadGuy
   - BackGround
-  - 
+  - Player
   - 
   - 
   - 
@@ -40,4 +45,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GameOver
+    uniqueID: 1820826759
+    locked: 0
+  - name: MysteryBox
+    uniqueID: 1434368149
+    locked: 0
+  - name: MidGround
+    uniqueID: 510694411
+    locked: 0
+  - name: DeadGuy
+    uniqueID: 135422795
+    locked: 0
+  - name: BackGround
+    uniqueID: 455473651
+    locked: 0
+  - name: BeyondGround
+    uniqueID: 1910000991
     locked: 0
